@@ -43,7 +43,7 @@ A practical Russian-first guide to Agent Skills, MCP, OData, Bitrix24 integratio
 
 ## Contact
 
-- Telegram: [@kodar1c](https://t.me/kodar1c)
+- Telegram: [@DED_GENA](https://t.me/DED_GENA)
 - GitHub: open an issue in the relevant repository
 
 Русский — основной язык моих отраслевых проектов. English summaries are included for international contributors.
