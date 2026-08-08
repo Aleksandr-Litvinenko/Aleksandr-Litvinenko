@@ -4,7 +4,7 @@
 
 ## Русский
 
-**Менеджер продуктов с ИИ · AI × 1C · автоматизация Bitrix24 · проекты с открытым кодом**
+**AI Product Manager · AI × 1C · Автоматизация**
 
 Создаю практические инструменты на стыке ИИ, платформы «1С:Предприятие» и Bitrix24: открытые руководства, учебные траектории, бизнес-аудиты и системы управления для развёртывания в собственной инфраструктуре.
 
@@ -64,7 +64,7 @@
 
 ## English
 
-**AI Product Manager · AI × 1C · Bitrix24 automation · Open source**
+**AI Product Manager · AI × 1C · Bitrix24 automation**
 
 I build practical tools at the intersection of AI, 1C:Enterprise, and Bitrix24: open guides, learning paths, business audits, and self-hosted management systems.
 
