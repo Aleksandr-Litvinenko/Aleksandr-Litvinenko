@@ -19,13 +19,14 @@ I collect and verify the ways an AI agent can actually connect to 1C:Enterprise 
 
 The catalog holds 14 ecosystem projects. Each entry records a pinned commit, license, prerequisites, access surface, and known write operations — and states separately what was checked: documentation, a release artifact, a local CLI smoke test, or a live endpoint.
 
-Three connections are documented from integrations in my own projects:
+Four connections are documented step by step, each stating separately what was actually confirmed:
 
 | Connection | What is verified | Guide |
 |---|---|---|
 | **OData in 1C:Fresh** | A private live GET against 1C:UNF: `$metadata`, document listing, read by `Ref_Key`. Creating an unposted document is implemented in working code | [Read and test-write](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/1cfresh-odata.en.md) |
 | **Bitrix24 tasks** | A working runtime in `task2bitrix24`: `tasks.task.list`, results, logged time, users, related CRM objects, pagination and `batch` | [List tasks and read one by ID](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/bitrix24-tasks.en.md) |
 | **Bitrix24 leads** | A private `crm.lead.add` with a verification read of the stored fields; the current example moved to the universal `crm.item.add` | [Backend webhook and lead creation](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/bitrix24-leads.en.md) |
+| **1C-Connect + Jira + Bitrix24** | The Jira half verified with live anonymous calls to the Apache Software Foundation's public Jira — repeatable without an account. The 1C-Connect SOAP API documented from the official reference | [Reconciling three systems](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/connect-jira-bitrix24.en.md) |
 
 The Python examples are safe by default: read commands cannot call write methods, sensitive output is redacted, and writes are bound to a fingerprint of one specific endpoint. Secrets stay in the local environment and never reach a prompt.
 
