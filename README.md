@@ -1,121 +1,77 @@
 # Александр Литвиненко
 
-[Русский](#русский) · [English](#english)
+**AI Product Manager · AI × 1C · Bitrix24 · открытый код**
 
-## Русский
+**Русский** · [English](README.en.md)
 
-**AI Product Manager · AI × 1C · Автоматизация**
+Собираю и проверяю способы подключения AI-агентов к «1С:Предприятию» и Bitrix24 — и публикую то, что действительно работает, вместе с границами применимости.
 
-Создаю практические инструменты на стыке ИИ, платформы «1С:Предприятие» и Bitrix24: открытые руководства, учебные траектории, бизнес-аудиты и системы управления для развёртывания в собственной инфраструктуре.
-
-### Сейчас развиваю
-
-#### [AI × 1C Guide](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
-
-Практическое открытое руководство на русском языке по MCP, Agent Skills, OData, безопасности и воспроизводимым сценариям работы с ИИ в экосистеме «1С:Предприятие».
-
-- Помогает выбрать набор инструментов с учётом задачи, способа доступа и рисков.
-- Разделяет анализ документации, быстрые проверки работоспособности и сквозную проверку.
-- Предлагает начинать с анализа кода и документации или пилота с доступом только для чтения, прежде чем разрешать изменения.
-- Принимает практические рецепты, заметки о совместимости и найденные риски безопасности.
-
-#### [education1c](https://github.com/Aleksandr-Litvinenko/education1c) · [edu.product1c.ru](https://edu.product1c.ru/)
-
-Будущая образовательная платформа для стажёров по 1С и менеджеров по продажам решений 1С. Первая версия — открытая программа обучения и понятные критерии оценки; функции LMS появятся только после пилота.
-
-### Основные проекты
-
-| Проект | Какую задачу решает | Технологии |
-|---|---|---|
-| [1c-ai-guide](https://github.com/Aleksandr-Litvinenko/1c-ai-guide) | Практический выбор инструментов и безопасные сценарии работы с ИИ в экосистеме 1С | Markdown · Python · GitHub Actions |
-| [education1c](https://github.com/Aleksandr-Litvinenko/education1c) · [будущий сайт](https://edu.product1c.ru/) | Учебные треки для стажёров по 1С и менеджеров по продажам решений 1С | HTML · CSS · Проектирование обучения |
-| [1cProductMap](https://github.com/Aleksandr-Litvinenko/1cProductMap) · [сайт](https://map.product1c.ru/) | Подбор продуктов экосистемы 1С под задачу компании | Python · JSON Schema |
-| [task2bitrix24](https://github.com/Aleksandr-Litvinenko/task2bitrix24) | Контроль качества задач, отчёты по закрытым часам и сценарии для «1С:УНФ» | PHP · Bitrix24 REST · OData |
-| [ProjectControl](https://github.com/Aleksandr-Litvinenko/ProjectControl) · [сайт](https://projectcrm.ru/) | Рабочее пространство для управления портфелем проектов и проектным офисом в собственной инфраструктуре | TypeScript · React · PostgreSQL |
-
-### Вклад в проекты с открытым кодом
-
-- [OpenIntegrations в каталоге Awesome 1C MCP Servers](https://github.com/Untru/1c-mcp/pull/5) — вклад в отраслевой каталог, который связывает библиотеку интеграций 1С с экосистемой MCP.
-
-### Профессиональный фокус
-
-- Продуктовая разработка с помощью ИИ
-- Интеграции 1С:Предприятия и Bitrix24
-- Образовательные продукты для команд 1С
-- Аудит бизнес-процессов и операционные дашборды
-- Воспроизводимые процессы работы с ИИ для разработчиков и аналитиков
-
-### Принципы работы
-
-- Начинаю с бизнес-задачи, а не с названия модели.
-- По умолчанию предпочитаю доступ только на чтение и явное подтверждение человеком.
-- Отделяю подтверждённые факты от экспериментов и предположений.
-- Делаю демо простыми для запуска, а результаты — для проверки.
-- Публикую полезную документацию вместе с кодом.
-
-### Контакты
-
-- Telegram: [@DED_GENA](https://t.me/DED_GENA)
-- GitHub: создайте issue в подходящем репозитории
-
-Основной язык проектов о 1С — русский. Английские версии добавляю там, где они помогают пользователям и участникам проектов с открытым кодом.
+[![AI × 1C Guide](https://img.shields.io/badge/гайд-AI%20×%201C-0d7d7d)](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
+[![Telegram](https://img.shields.io/badge/Telegram-@DED__GENA-26A5E4?logo=telegram&logoColor=white)](https://t.me/DED_GENA)
 
 ---
 
-## English
+## Главный проект: открытый реестр подключений AI к 1С и Bitrix24
 
-**AI Product Manager · AI × 1C · Bitrix24 automation**
+[**AI × 1C Guide**](https://github.com/Aleksandr-Litvinenko/1c-ai-guide) — гайд и машиночитаемый каталог по одному вопросу: какими способами AI-агент реально подключается к «1С:Предприятию» и Bitrix24, что каждый способ даёт и где он опасен.
 
-I build practical tools at the intersection of AI, 1C:Enterprise, and Bitrix24: open guides, learning paths, business audits, and self-hosted management systems.
+В каталоге 14 проектов экосистемы. Для каждого зафиксированы commit, лицензия, требования, поверхность доступа и известные операции записи. Отдельно указано, что именно проверено: документация, релизный артефакт, локальный CLI smoke-test или живой endpoint.
 
-### Currently building
+Три подключения разобраны на основе интеграций из моих собственных проектов:
 
-#### [AI × 1C Guide](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
-
-A practical, Russian-first open-source guide to MCP, Agent Skills, OData, security patterns, and reproducible AI workflows for the 1C:Enterprise ecosystem.
-
-- Helps you choose a toolset based on the task, access surface, and risk.
-- Distinguishes documentation analysis, smoke tests, and end-to-end verification.
-- Recommends starting with code and documentation analysis or a read-only pilot before enabling writes.
-- Welcomes practical recipes, compatibility notes, and security findings.
-
-#### [education1c](https://github.com/Aleksandr-Litvinenko/education1c) · [edu.product1c.ru](https://edu.product1c.ru/)
-
-A future learning platform for 1C interns and sales managers working with 1C solutions. The first version is an open curriculum with clear assessment criteria; LMS features will follow only after a pilot.
-
-### Featured projects
-
-| Project | What it solves | Stack |
+| Подключение | Что подтверждено | Инструкция |
 |---|---|---|
-| [1c-ai-guide](https://github.com/Aleksandr-Litvinenko/1c-ai-guide) | Practical tool selection and safer AI workflows for the 1C ecosystem | Markdown · Python · GitHub Actions |
-| [education1c](https://github.com/Aleksandr-Litvinenko/education1c) · [planned site](https://edu.product1c.ru/) | Learning tracks for 1C interns and sales managers working with 1C solutions | HTML · CSS · Learning design |
-| [1cProductMap](https://github.com/Aleksandr-Litvinenko/1cProductMap) · [live site](https://map.product1c.ru/) | Product selection for the 1C ecosystem based on a company's needs | Python · JSON Schema |
-| [task2bitrix24](https://github.com/Aleksandr-Litvinenko/task2bitrix24) | Task-quality checks, closed-hours reports, and 1C:UNF workflows | PHP · Bitrix24 REST · OData |
-| [ProjectControl](https://github.com/Aleksandr-Litvinenko/ProjectControl) · [live site](https://projectcrm.ru/) | A self-hosted workspace for project portfolio and PMO management | TypeScript · React · PostgreSQL |
+| **OData в 1С:Фреш** | Приватный live-GET к «1С:УНФ»: `$metadata`, выборка документов, чтение по `Ref_Key`. Создание непроведённого документа реализовано в рабочем коде | [Чтение и тестовая запись](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/1cfresh-odata.md) |
+| **Задачи Bitrix24** | Рабочий runtime в `task2bitrix24`: `tasks.task.list`, результаты, списанное время, пользователи, связанные CRM-объекты, пагинация и `batch` | [Список задач и карточка по ID](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/bitrix24-tasks.md) |
+| **Лиды Bitrix24** | Приватный `crm.lead.add` с контрольным чтением записанных полей; актуальный пример переведён на универсальный `crm.item.add` | [Backend-вебхук и создание лида](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/guides/bitrix24-leads.md) |
 
-### Open-source contributions
+Примеры на Python безопасны по умолчанию: команды чтения не умеют вызывать методы записи, чувствительные значения в выводе скрыты, запись привязана к отпечатку конкретного стенда. Секреты остаются в локальном окружении и не попадают в prompt.
 
-- [OpenIntegrations in Awesome 1C MCP Servers](https://github.com/Untru/1c-mcp/pull/5) — a contribution to an industry catalog connecting the 1C integration library with the wider MCP ecosystem.
+**Чего реестру не хватает и что можно прислать:** end-to-end проверки на Windows и Linux с реальной тестовой базой 1С, негативные тесты запрещённых операций, точные версии платформы, сведения о лицензиях и авторизации. Начать можно с [CONTRIBUTING](https://github.com/Aleksandr-Litvinenko/1c-ai-guide/blob/main/CONTRIBUTING.md).
 
-### Professional focus
+---
 
-- AI-assisted product development
-- 1C:Enterprise and Bitrix24 integrations
-- Learning products for 1C teams
-- Business-process audits and operational dashboards
-- Reproducible AI workflows for developers and analysts
+## Проекты
 
-### Working principles
+| Проект | Какую задачу решает | Технологии |
+|---|---|---|
+| [**1c-ai-guide**](https://github.com/Aleksandr-Litvinenko/1c-ai-guide) | Выбор инструментов и безопасные сценарии подключения AI к 1С и Bitrix24 | Markdown · Python · GitHub Actions |
+| [**task2bitrix24**](https://github.com/Aleksandr-Litvinenko/task2bitrix24) | Контроль качества задач, отчёты по закрытым часам и сценарии для «1С:УНФ» | PHP · Bitrix24 REST · OData |
+| [**1cProductMap**](https://github.com/Aleksandr-Litvinenko/1cProductMap) · [map.product1c.ru](https://map.product1c.ru/) | Подбор продуктов экосистемы 1С под задачу, размер компании и бюджет | Python · JSON Schema |
+| [**ProjectControl**](https://github.com/Aleksandr-Litvinenko/ProjectControl) · [projectcrm.ru](https://projectcrm.ru/) | Рабочее пространство проектного офиса в собственной инфраструктуре | TypeScript · React · PostgreSQL · Docker |
+| [**education1c**](https://github.com/Aleksandr-Litvinenko/education1c) · [edu.product1c.ru](https://edu.product1c.ru/) | Программа адаптации стажёров 1С и менеджеров по продажам решений 1С | HTML · CSS · Проектирование обучения |
 
-- I start with the business problem, not the model name.
-- I prefer read-only access and explicit human approval by default.
-- I separate verified facts from experiments and assumptions.
-- I make demos easy to try and results easy to check.
-- I publish useful documentation alongside code.
+### Эксперименты с AI-генерацией кода
 
-### Contact
+Отдельная линия репозиториев — прототипы, целиком собранные разными AI-инструментами: браузерные игры, симуляторы, ранние версии CRM. Они помечены как эксперименты и нужны, чтобы сравнивать поведение Claude Code, Codex и Qwen на одинаковых задачах, а не чтобы выдавать прототип за продукт.
+
+### Вклад в чужие проекты
+
+- [OpenIntegrations в каталоге Awesome 1C MCP Servers](https://github.com/Untru/1c-mcp/pull/5) — отраслевой каталог, связывающий библиотеку интеграций 1С с экосистемой MCP.
+
+---
+
+## Как я работаю
+
+- Начинаю с бизнес-задачи, а не с названия модели.
+- По умолчанию выбираю доступ только на чтение и явное подтверждение человеком.
+- Отделяю подтверждённый факт от эксперимента и предположения — в тексте это видно.
+- Не называю решение безопасным, пока запрет не проверен негативным тестом.
+- Публикую документацию вместе с кодом, а ограничения — вместе с результатом.
+
+## Ключевые темы
+
+**1С:** «1С:Предприятие» 8.3, 1С:Фреш, 1С:УНФ, стандартный OData-интерфейс, HTTP-сервисы, BSL, 1C:EDT, выгрузка конфигурации.
+
+**Bitrix24:** REST API, входящие вебхуки, задачи, CRM и лиды, `batch`, лимиты запросов.
+
+**AI:** MCP (Model Context Protocol), Agent Skills, Claude Code, Codex, Cursor, function calling, RAG, AI-ассистированная разработка.
+
+**Продукт:** управление продуктом, аудит бизнес-процессов, операционные дашборды, обучение команд 1С.
+
+## Контакты
 
 - Telegram: [@DED_GENA](https://t.me/DED_GENA)
-- GitHub: open an issue in the relevant repository
+- Вопрос по проекту: issue в соответствующем репозитории
 
-Russian is the primary language for 1C-focused projects. English versions are added where they help users and open-source contributors.
+Основной язык проектов о 1С — русский: документация экосистемы существует прежде всего на нём. Английские версии добавляю там, где они помогают пользователям и участникам.
