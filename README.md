@@ -6,6 +6,7 @@
 
 Собираю и проверяю способы подключить AI-агента к «1С:Предприятию» и Bitrix24. Публикую то, что работает, и пишу, где у этого границы. Ещё делаю сервисы вокруг 1С и сайты, почти всё живёт на product1c.ru.
 
+[![Резюме](https://img.shields.io/badge/резюме-cv.product1c.ru-46E6C3)](https://cv.product1c.ru)
 [![AI × 1C Guide](https://img.shields.io/badge/гайд-AI%20×%201C-0d7d7d)](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
 [![Telegram](https://img.shields.io/badge/Telegram-@DED__GENA-26A5E4?logo=telegram&logoColor=white)](https://t.me/DED_GENA)
 
@@ -47,6 +48,7 @@
 
 Сайты с WebGL-графикой. Код закрыт, в репозиториях описано, как они сделаны и чем проверены.
 
+- [**Резюме**](https://github.com/Aleksandr-Litvinenko/cv) · [cv.product1c.ru](https://cv.product1c.ru): резюме AI Founder и Product Manager на русском и английском. Граф из частиц на WebGL2 перестраивается под каждый раздел.
 - [**Product1C**](https://github.com/Aleksandr-Litvinenko/beautydesign) · [beautydesign.product1c.ru](https://beautydesign.product1c.ru): сайт студии, хромированный объект с эффектом глубины.
 - [**Product1C 3D**](https://github.com/Aleksandr-Litvinenko/product1c-new) · [new.product1c.ru](https://new.product1c.ru/): одна сцена из частиц на Three.js проходит пять форм при прокрутке.
 - [**cBrain**](https://github.com/Aleksandr-Litvinenko/cbrain) · [cbrain.product1c.ru](https://cbrain.product1c.ru): рой из 110 000 частиц на чистом WebGL2 перестраивается по прокрутке.

@@ -6,6 +6,7 @@
 
 I test ways to connect AI agents to 1C:Enterprise and Bitrix24 and publish what works, along with where it stops working. I also build small services around 1C and a few websites; most of them run on product1c.ru.
 
+[![CV](https://img.shields.io/badge/CV-cv.product1c.ru%2Fen-C4F54A)](https://cv.product1c.ru/en/)
 [![AI × 1C Guide](https://img.shields.io/badge/guide-AI%20×%201C-0d7d7d)](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
 [![Telegram](https://img.shields.io/badge/Telegram-@DED__GENA-26A5E4?logo=telegram&logoColor=white)](https://t.me/DED_GENA)
 
@@ -49,6 +50,7 @@ The registry still needs end-to-end results on Windows and Linux against a real 
 
 Sites built around WebGL graphics. The code is private; each repository explains how the site was made and how it was checked.
 
+- [**CV**](https://github.com/Aleksandr-Litvinenko/cv) · [cv.product1c.ru/en](https://cv.product1c.ru/en/): my AI Founder and Product Manager CV in English and Russian. A WebGL2 particle graph rebuilds itself for each section.
 - [**Product1C**](https://github.com/Aleksandr-Litvinenko/beautydesign) · [beautydesign.product1c.ru](https://beautydesign.product1c.ru): the studio site, with a chrome object and a depth effect.
 - [**Product1C 3D**](https://github.com/Aleksandr-Litvinenko/product1c-new) · [new.product1c.ru](https://new.product1c.ru/): a single Three.js particle scene that moves through five shapes as you scroll.
 - [**cBrain**](https://github.com/Aleksandr-Litvinenko/cbrain) · [cbrain.product1c.ru](https://cbrain.product1c.ru): a swarm of 110,000 particles in plain WebGL2 that rebuilds itself on scroll.
