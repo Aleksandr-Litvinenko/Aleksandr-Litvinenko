@@ -48,7 +48,7 @@
 
 Сайты с WebGL-графикой. Код закрыт, в репозиториях описано, как они сделаны и чем проверены.
 
-- [**Резюме**](https://github.com/Aleksandr-Litvinenko/cv) · [cv.product1c.ru](https://cv.product1c.ru): резюме AI Founder и Product Manager на русском и английском. Граф из частиц на WebGL2 перестраивается под каждый раздел.
+- [**Резюме**](https://cv.product1c.ru) · cv.product1c.ru: резюме AI Founder и Product Manager на русском и английском. Граф из частиц на WebGL2 перестраивается под каждый раздел.
 - [**Product1C**](https://github.com/Aleksandr-Litvinenko/beautydesign) · [beautydesign.product1c.ru](https://beautydesign.product1c.ru): сайт студии, хромированный объект с эффектом глубины.
 - [**Product1C 3D**](https://github.com/Aleksandr-Litvinenko/product1c-new) · [new.product1c.ru](https://new.product1c.ru/): одна сцена из частиц на Three.js проходит пять форм при прокрутке.
 - [**cBrain**](https://github.com/Aleksandr-Litvinenko/cbrain) · [cbrain.product1c.ru](https://cbrain.product1c.ru): рой из 110 000 частиц на чистом WebGL2 перестраивается по прокрутке.

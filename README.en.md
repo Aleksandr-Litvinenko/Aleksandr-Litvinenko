@@ -50,7 +50,7 @@ The registry still needs end-to-end results on Windows and Linux against a real 
 
 Sites built around WebGL graphics. The code is private; each repository explains how the site was made and how it was checked.
 
-- [**CV**](https://github.com/Aleksandr-Litvinenko/cv) · [cv.product1c.ru/en](https://cv.product1c.ru/en/): my AI Founder and Product Manager CV in English and Russian. A WebGL2 particle graph rebuilds itself for each section.
+- [**CV**](https://cv.product1c.ru/en/) · cv.product1c.ru/en: my AI Founder and Product Manager CV in English and Russian. A WebGL2 particle graph rebuilds itself for each section.
 - [**Product1C**](https://github.com/Aleksandr-Litvinenko/beautydesign) · [beautydesign.product1c.ru](https://beautydesign.product1c.ru): the studio site, with a chrome object and a depth effect.
 - [**Product1C 3D**](https://github.com/Aleksandr-Litvinenko/product1c-new) · [new.product1c.ru](https://new.product1c.ru/): a single Three.js particle scene that moves through five shapes as you scroll.
 - [**cBrain**](https://github.com/Aleksandr-Litvinenko/cbrain) · [cbrain.product1c.ru](https://cbrain.product1c.ru): a swarm of 110,000 particles in plain WebGL2 that rebuilds itself on scroll.
