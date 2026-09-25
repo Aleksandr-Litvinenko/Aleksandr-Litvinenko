@@ -6,7 +6,6 @@
 
 Собираю и проверяю способы подключить AI-агента к «1С:Предприятию» и Bitrix24. Публикую то, что работает, и пишу, где у этого границы. Ещё делаю сервисы вокруг 1С и сайты, почти всё живёт на product1c.ru.
 
-[![Резюме](https://img.shields.io/badge/резюме-cv.product1c.ru-46E6C3)](https://cv.product1c.ru)
 [![AI × 1C Guide](https://img.shields.io/badge/гайд-AI%20×%201C-0d7d7d)](https://github.com/Aleksandr-Litvinenko/1c-ai-guide)
 [![Telegram](https://img.shields.io/badge/Telegram-@DED__GENA-26A5E4?logo=telegram&logoColor=white)](https://t.me/DED_GENA)
 
